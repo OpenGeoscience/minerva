@@ -1,0 +1,19 @@
+###
+# Install GeoServer from Custom GeoNode Build 
+#
+---
+
+- name: install Tomcat 
+  apt: pkg={{ item }} state=present
+  sudo: yes
+  with_items:
+   - tomcat7 
+
+- name: Download Geoserver (remote)
+  sudo: yes
+  get_url:
+    dest=/var/lib/tomcat7/webapps/geoserver.war
+    url={{ geoserver_url }}
+    owner=0
+    group=0
+    mode=0644

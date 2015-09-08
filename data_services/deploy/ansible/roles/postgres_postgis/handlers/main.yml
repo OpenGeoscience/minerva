@@ -1,0 +1,5 @@
+---
+
+- name: restart postgres_postgis
+  command: /etc/init.d/postgresql restart
+  sudo: yes
