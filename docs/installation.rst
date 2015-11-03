@@ -40,21 +40,10 @@ Fedora 22
 Install of Minerva as a Girder plugin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Install Romanesco, a dependency of Minerva, also a Girder plugin.
+Install Romanesco, a dependency of Minerva, into the Girder plugins dir.
 
--  git clone Romanesco into the Girder plugins dir
-
-::
-
-   git clone https://github.com/Kitware/romanesco.git
-
--  pip install the ``romanesco/requirements.txt`` and ``romanesco/requirements-dev.txt``
-
-::
-
-   pip install -r requirements.txt
-   pip install -r requirements-dev.txt
-
+..  _Install Romanesco from source: http://romanesco.readthedocs.org/en/latest/developer-docs.html#install-from-source
+..  _Install Romanesco as a Girder plugin: http://romanesco.readthedocs.org/en/latest/installation.html#installing-the-girder-plugin
 
 Install Minerva.
 
