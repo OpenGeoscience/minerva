@@ -44,9 +44,13 @@ Install Romanesco, a dependency of Minerva, also a Girder plugin.
 
 -  git clone Romanesco into the Girder plugins dir
 
+::
+
    git clone https://github.com/Kitware/romanesco.git
 
 -  pip install the ``romanesco/requirements.txt`` and ``romanesco/requirements-dev.txt``
+
+::
 
    pip install -r requirements.txt
    pip install -r requirements-dev.txt
@@ -57,15 +61,22 @@ Install Minerva.
 -  git clone Minerva into the Girder plugins dir
 -  pip install the ``minerva/requirements.txt`` and ``minerva/requirements-dev.txt``
 
+
+::
+
    pip install -r requirements.txt
    pip install -r requirements-dev.txt
 
 -  run npm install in the ``minerva`` directory to get Minerva’s JS
    dependencies
 
+
+::
+
    npm install
 
 -  grunt at the top level in the ``girder`` directory to build Minerva
+::
 
    grunt
 
